@@ -1,0 +1,158 @@
+
+:root{
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  }
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#Sidebar{
+  height: 100%;
+  width: 200px;
+  background-color: burlywood;
+}
+
+
+.containerdiv
+{
+padding-left: 10px ;
+background-color: bisque;
+flex: 2rem;
+}
+
+
+nav ul {
+  list-style-type: none;
+  text-align:center;
+  justify-content: center;
+  padding:1px;
+}
+
+
+
+.registerForm, .SearchMenu, .zoneMenu {
+  width: 500px;
+  padding: 10px;
+  background-color: grey;
+  border-radius:6px;
+  border-width: thin;
+  border: solid black;
+}
+
+#zoneRemove{
+  justify-content: center;
+}
+
+.zoneCanvas{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: auto;
+
+}
+
+.zoneBox {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:400px;
+  height:200px;
+  margin:10px;
+  border-radius: 15px;
+}
+
+.zoneBoxName {
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+  color:#f4f5f9
+}
+
+.zoneBoxTextArea {
+  text-align: center;
+  font-size: x-large;
+  color:#caccd4
+}
+
+
+#queryResults{
+  list-style-type: none;
+  justify-content: center;
+  padding: 3px;
+  background-color: aliceblue;
+  border: solid black;
+  /* border-width: thin; */
+  border-radius: 6px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.quantityMenu {
+  width: 500px;
+  padding: 5px;
+  background-color: grey;
+  border-radius:6px;
+  border-width: thin;
+  border: solid black;
+}
+
+.quantityFoodTitle {
+  font-weight: bold;
+  color:#f4f5f9;
+  background-color: rgb(204, 50, 50);
+  width: fit-content;
+  padding: 3px;
+  margin: 3px;
+  box-shadow: 2px 2px 2px rgb(17, 17, 17);
+  border-radius: 5px;
+}
+
+.existingZones, .addNewZone {
+  width: 180px;
+  display:flex;
+  justify-content: left;
+  margin-top: 10px;
+  padding: 5px;
+  display: table;
+  border: solid black;
+  border-radius: 6px;
+}
+
+.existingZoneTitle, .newZoneTitle {
+  color:#f4f5f9;
+  background-color: rgb(204, 50, 50);
+  box-shadow: 2px 2px 2px rgb(17, 17, 17);
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 5px;
+  margin-bottom: 3px;
+
+}
+
+
+.addNewZone > label {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addNewZone > label > select {
+  margin: 10px;
+}
+
+.zoneRows{
+  display: table-row;
+}
+
+.restockItems {
+  display:flex;
+
+}
