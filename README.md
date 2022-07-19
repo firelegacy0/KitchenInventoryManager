@@ -1,6 +1,6 @@
 # React Kitchen Inventory Manager v1.0
 
-This is a Single-Page Web Application designed to help manage a hypothetical Kitchen Inventory Manager.
+This is a Single-Page Web Application (SPA) built with React, designed to help manage a hypothetical Kitchen Inventory Manager.
 
 Application uses Browser's LocalStorage for database. Run ``localStorage.clear()`` when necessary.  
 
