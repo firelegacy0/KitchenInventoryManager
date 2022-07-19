@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-Sample Video:
+## Sample Video:
 
 
 https://user-images.githubusercontent.com/55813746/179673976-3db57bfe-94e2-4ff9-8ccb-f0683780a742.mp4
